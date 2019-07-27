@@ -1,14 +1,145 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  {
+    "id": 1,
+    "chargeId": 3,
+    "accountId": 57,
+    "name": "Savings account maintenance fee",
+    "chargeTimeType": {
+      "id": 1,
+      "code": "chargeTimeType.specifiedDueDate",
+      "value": "Specified due date"
+    },
+    "chargeCalculationType": {
+      "id": 1,
+      "code": "chargeCalculationType.flat",
+      "value": "Flat"
+    },
+    "percentage": 0,
+    "amountPercentageAppliedTo": 0,
+    "currency": {
+      "code": "USD",
+      "name": "US Dollar",
+      "decimalPlaces": 2,
+      "displaySymbol": "$",
+      "nameCode": "currency.USD",
+      "displayLabel": "US Dollar ($)"
+    },
+    "amount": 100,
+    "amountPaid": 0,
+    "amountWaived": 0,
+    "amountWrittenOff": 0,
+    "amountOutstanding": 100,
+    "amountOrPercentage": 100,
+    "penalty": false
+  },
+  {
+    "id": 2,
+    "chargeId": 4,
+    "accountId": 57,
+    "name": "Pass book Fee",
+    "chargeTimeType": {
+      "id": 2,
+      "code": "chargeTimeType.specifiedDueDate",
+      "value": "Specified due date"
+    },
+    "dueDate": [
+      2013,
+      3,
+      29
+    ],
+    "chargeCalculationType": {
+      "id": 1,
+      "code": "chargeCalculationType.flat",
+      "value": "Flat"
+    },
+    "percentage": 0,
+    "amountPercentageAppliedTo": 0,
+    "currency": {
+      "code": "USD",
+      "name": "US Dollar",
+      "decimalPlaces": 2,
+      "displaySymbol": "$",
+      "nameCode": "currency.USD",
+      "displayLabel": "US Dollar ($)"
+    },
+    "amount": 100,
+    "amountPaid": 0,
+    "amountWaived": 0,
+    "amountWrittenOff": 0,
+    "amountOutstanding": 100,
+    "amountOrPercentage": 100,
+    "penalty": false
+  },
+  {
+    "id": 9,
+    "chargeId": 4,
+    "accountId": 57,
+    "name": "Withdrawal fee percentage",
+    "chargeTimeType": {
+      "id": 5,
+      "code": "chargeTimeType.withdrawalFee",
+      "value": "Withdrawal Fee"
+    },
+    "chargeCalculationType": {
+      "id": 2,
+      "code": "chargeCalculationType.percent.of.amount",
+      "value": "% Amount"
+    },
+    "percentage": 0.25,
+    "amountPercentageAppliedTo": 0,
+    "currency": {
+      "code": "USD",
+      "name": "US Dollar",
+      "decimalPlaces": 2,
+      "displaySymbol": "$",
+      "nameCode": "currency.USD",
+      "displayLabel": "US Dollar ($)"
+    },
+    "amount": 0,
+    "amountPaid": 0,
+    "amountWaived": 0,
+    "amountWrittenOff": 0,
+    "amountOutstanding": 0,
+    "amountOrPercentage": 0.25,
+    "penalty": false
+  },
+  {
+    "id": 10,
+    "chargeId": 6,
+    "accountId": 57,
+    "name": "Annual fee - INR",
+    "chargeTimeType": {
+      "id": 6,
+      "code": "chargeTimeType.annualFee",
+      "value": "Annual Fee"
+    },
+    "feeOnMonthDay": [
+      10,
+      9
+    ],
+    "chargeCalculationType": {
+      "id": 1,
+      "code": "chargeCalculationType.flat",
+      "value": "Flat"
+    },
+    "percentage": 0,
+    "amountPercentageAppliedTo": 0,
+    "currency": {
+      "code": "USD",
+      "name": "US Dollar",
+      "decimalPlaces": 2,
+      "displaySymbol": "$",
+      "nameCode": "currency.USD",
+      "displayLabel": "US Dollar ($)"
+    },
+    "amount": 50,
+    "amountPaid": 0,
+    "amountWaived": 0,
+    "amountWrittenOff": 0,
+    "amountOutstanding": 50,
+    "amountOrPercentage": 50,
+    "penalty": false
   }
+]
 }
