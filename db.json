@@ -1,4 +1,15 @@
 {
+   "newdata": [
+  {
+    "id": 1,
+    "chargeId": 3,
+    "accountId": 57,
+    "name": "Savings account maintenance fee",
+    "chargeTimeType": {
+      "id": 1,
+      "code": "chargeTimeType.specifiedDueDate",
+      "value": "Specified due date"
+    }],
   "posts": [
   {
     "id": 1,
