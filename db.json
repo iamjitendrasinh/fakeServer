@@ -1,5 +1,5 @@
 {
-	"newdata/{id}"{"hello":124}
+	"newdata/{id}":{"hello":124}
 	,
 	"newdata": [
 		{
